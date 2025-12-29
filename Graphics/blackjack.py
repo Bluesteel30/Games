@@ -15,7 +15,7 @@ def drawHand(window, hand, point):
         if card[:2] == '10':
             card = 't'+card[-1]
         p1 = Point(x+a,y)
-        i = Image(p1,"C:/Users/ldion/CodeSummer2024/Python/Wordle/Graphics/cards/" + card + ".gif")
+        i = Image(p1,"C:/Users/ldion/Coding/Python/Games/Graphics/cards/" + card + ".gif")
         images.append(i)
         i.draw(w1)
         a += 50
